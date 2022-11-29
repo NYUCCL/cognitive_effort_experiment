@@ -1,0 +1,5 @@
+PsiTurk
+psycopg2-binary
+pymysql
+numpy
+pandas

@@ -1,0 +1,131 @@
+<div id="container-questionnaire">
+    <h1>Instructions Check</h1>
+
+    <hr />
+
+    <p>Before beginning the experiment, you must answer a few simple questions to ensure you have read the instructions. If you do not answer all questions correctly, you will be returned to the start of the instructions and have a chance to retake this quiz.</p>
+
+    <div class="instructions well">
+        <form id="prequiz" action="debrief" method="post">
+
+            <div class="row question">
+                <div class="col-md-6">
+              		Which of the following is a valid rule for grouping the objects?
+                </div>
+                <div class="col-md-6">
+                  <select id="rule" name="rule">
+                    <option value="noresp" SELECTED></option>
+                    <option value="ruleRed ">All red, small objects are in group A.</option>
+                    <option value="ruleOne">Only the small white triangle is in group A, and everything else is in group B.</option>
+                    <option value="ruleYes">All black objects are in group A except for the small square, which is in group B.</option>
+                  </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="row question">
+                <div class="col-md-6">
+                  Of the eight unique objects, how many are in each group?
+                </div>
+                <div class="col-md-6">
+                  <select id="group" name="group">
+                    <option value="noresp" SELECTED></option>
+                    <option value="groupSkew ">One in group A, seven in group B.</option>
+                    <option value="groupEven">Four in group A, four in group B.</option>
+                    <option value="groupVaries ">It varies from person to person.</option>
+                  </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="row question">
+                <div class="col-md-6">
+            		Which of the following aspects of the items may be relevant for determining the groups?
+                </div>
+                <div class="col-md-6">
+                    <input type="checkbox" id="pattern" name="features" value="pattern">
+                    <label for="pattern"> Pattern (Striped vs. Plain)</label><br>
+                    <input type="checkbox" id="fill" name="features" value="fill">
+                    <label for="fill"> Fill color</label><br>
+                    <input type="checkbox" id="borderstyle" name="features" value="borderstyle">
+                    <label for="borderstyle"> Border Style (Dashed vs. Solid</label><br>
+                    <input type="checkbox" id="bordercolor" name="features" value="bordercolor">
+                    <label for="bordercolor"> Border Color</label><br>
+                    <input type="checkbox" id="shape" name="features" value="shape">
+                    <label for="shape"> Shape (Triangle vs. Square)</label><br>
+                    <input type="checkbox" id="size" name="features" value="size">
+                    <label for="size"> Size</label><br>
+                </div>
+            </div>
+            <br>
+
+            <div class="row question">
+                <div class="col-md-6">
+                    How many questions are on the test at the end?
+                </div>
+                <div class="col-md-6">
+                    <select id="test" name="test">
+                        <option value="noresp" SELECTED></option>
+                        <option value="testFour">Four.</option>
+                        <option value="testEight">Eight.</option>
+                        <option value="testSixteen">Sixteen.</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="row question">
+                <div class="col-md-6">
+                    If you get two questions correct on the test, how many bonus tickets do you earn?
+                </div>
+                <div class="col-md-6">
+                    <select id="marbles" name="marbles">
+                        <option value="noresp" SELECTED></option>
+                        <option value="marblesZero">Zero tickets.</option>
+                        <option value="marblesOne">One ticket.</option>
+                        <option value="marblesTwo">Two tickets.</option>
+                        <option value="marblesThree">Three tickets.</option>
+                        <option value="marblesFour">Four tickets.</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="row question">
+                <div class="col-md-6">
+                    If you earn four (4) bonus tickets, what will your bonus payment be?
+                </div>
+                <div class="col-md-6">
+                    <select id="incent" name="incent">
+                        <option value="noresp" SELECTED></option>
+                        <option value="incentA">A</option>
+                        <option value="incentB">B</option>
+                        <option value="incentC">C</option>
+                        <option value="incentD">If you are seeing this, the experimenter made an error</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="row question">
+                <div class="col-md-6">
+                    Should you use pen and paper to help remember the labels for each item?
+                </div>
+                <div class="col-md-6">
+                    <select id="help" name="help">
+                        <option value="noresp" SELECTED></option>
+                        <option value="helpYes">Yes.</option>
+                        <option value="helpNo">No.</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+
+        </form>
+    </div>
+
+    <button type="button" id="continue" class="btn btn-warning btn-lg continue"> Continue </button>
+    <br/>
+
+</div>

@@ -1,0 +1,4 @@
+git+https://github.com/NYUCCL/psiTurk.git@master#egg=PsiTurk
+psycopg2-binary
+pymysql
+numpy

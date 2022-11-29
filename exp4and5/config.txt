@@ -1,0 +1,3 @@
+This file omitted for security reasons.
+
+For information on configuring this file for your own use, see https://psiturk.readthedocs.io/en/stable/configuration-overview.html
