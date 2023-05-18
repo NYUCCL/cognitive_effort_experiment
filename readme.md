@@ -1,5 +1,5 @@
 # Cognitive discovery and financial incentives
-EXPERIMENT CODE for the six experiments in the NHB manuscript.
+EXPERIMENT CODE for the six experiments in the manuscript.
 
 Experiment 1 - Tested all six rule types at three incentive levels (low, med, high). 16 learning trials. The only difference between the two versions is the addition of a "testscore" term saved to the database in v0.1 so that it does not have to be computed posthoc as nCorrect/nTestQuestions. So they are essentially the same experiment, one just saves an extra term for convenience (but there is no information that isn't also included in v0.0). Better performance on test phase increases PROBABILITY of fixed $10 bonus.
 
